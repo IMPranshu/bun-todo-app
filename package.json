@@ -2,7 +2,11 @@
   "name": "bun-todo-app",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "start": "bun run index.tsx"
+  },
   "devDependencies": {
+    "@flydotio/dockerfile": "latest",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "bun-types": "latest",
